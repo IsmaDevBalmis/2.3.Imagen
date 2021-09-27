@@ -8,6 +8,21 @@
         Title="Imagen" Height="450" Width="800"
         Icon="assets/image.ico">
     <Grid>
+        <Image x:Name="imagenImage" HorizontalAlignment="Left" Height="326" Margin="39,38,0,0" VerticalAlignment="Top" Width="388" Source="assets/episodioIV.jpg" Stretch="Fill"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="578,38,0,0" TextWrapping="Wrap" Text="Opacidad" FontWeight="Bold" FontSize="15px" VerticalAlignment="Top"/>
+        <RadioButton x:Name="opacidadAltaRadioButton" Content="Alta" HorizontalAlignment="Left" Margin="578,79,0,0" VerticalAlignment="Top" GroupName="opacidad" IsChecked="True" Checked="opacidadAltaRadioButton_Checked"/>
+        <RadioButton x:Name="opacidadMeidaRadioButton" Content="Media" HorizontalAlignment="Left" Margin="578,113,0,0" VerticalAlignment="Top" GroupName="opacidad" Checked="opacidadMeidaRadioButton_Checked"/>
+        <RadioButton x:Name="opacidadBajaRadioButton" Content="Baja" HorizontalAlignment="Left" Margin="578,147,0,0" VerticalAlignment="Top" GroupName="opacidad" Checked="opacidadBajaRadioButton_Checked"/>
         
+        
+        
+        <RadioButton x:Name="rellenoAjusteRadioButton" Content="Relleno (fill)" HorizontalAlignment="Left" Margin="578,256,0,0" VerticalAlignment="Top" GroupName="ajuste" Checked="rellenoAjusteRadioButton_Checked" IsChecked="True"/>
+        <RadioButton x:Name="uniformeAjusteRadioButton" Content="Uniforme (uniform)" HorizontalAlignment="Left" Margin="578,294,0,0" VerticalAlignment="Top" GroupName="ajuste" Checked="uniformeAjusteRadioButton_Checked"/>
+        <RadioButton x:Name="rellenoUniformeAjusteRadioButton" Content="Relleno uniforme (uniformToFill)" HorizontalAlignment="Left" Margin="578,327,0,0" VerticalAlignment="Top" GroupName="ajuste" Checked="rellenoUniformeAjusteRadioButton_Checked"/>
+        <RadioButton x:Name="sinAjusteRadioButton" Content="Sin ajuste (none)" HorizontalAlignment="Left" Margin="578,364,0,0" VerticalAlignment="Top" GroupName="ajuste" Checked="sinAjusteRadioButton_Checked"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="578,222,0,0" TextWrapping="Wrap" Text="Ajuste" FontWeight="Bold" FontSize="15px" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>

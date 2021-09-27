@@ -24,5 +24,40 @@ namespace Imagen
         {
             InitializeComponent();
         }
+
+        private void opacidadAltaRadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            imagenImage.Opacity = 1.0;
+        }
+
+        private void opacidadMeidaRadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            imagenImage.Opacity = 0.5;
+        }
+
+        private void opacidadBajaRadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            imagenImage.Opacity = 0.2;
+        }
+
+        private void rellenoAjusteRadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            imagenImage.Stretch = Stretch.Fill;
+        }
+
+        private void uniformeAjusteRadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            imagenImage.Stretch = Stretch.Uniform;
+        }
+
+        private void rellenoUniformeAjusteRadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            imagenImage.Stretch = Stretch.UniformToFill;
+        }
+
+        private void sinAjusteRadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            imagenImage.Stretch = Stretch.None;
+        }
     }
 }
