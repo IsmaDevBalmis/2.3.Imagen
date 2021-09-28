@@ -32,12 +32,12 @@ namespace Imagen
 
         private void opacidadMeidaRadioButton_Checked(object sender, RoutedEventArgs e)
         {
-            imagenImage.Opacity = 0.5;
+            imagenImage.Opacity = 0.6;
         }
 
         private void opacidadBajaRadioButton_Checked(object sender, RoutedEventArgs e)
         {
-            imagenImage.Opacity = 0.2;
+            imagenImage.Opacity = 0.3;
         }
 
         private void rellenoAjusteRadioButton_Checked(object sender, RoutedEventArgs e)
